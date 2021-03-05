@@ -1,4 +1,4 @@
-## UNIT: 7 PROJECT 1 
+## UNIT 7: PROJECT 1 
 
 ## TEAM: groupEighteen
 
