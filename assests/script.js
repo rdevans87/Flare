@@ -1,1 +1,7 @@
-https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&parameters
+var SearchFormEL = document.querySelector("#signup-form");
+
+function.handleSearchFormSubmit (event) {
+event.preventDefault();
+
+};
+

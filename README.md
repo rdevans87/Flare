@@ -1,4 +1,4 @@
-## UNIT: 7 PROJECT 1 
+## UNIT 7: PROJECT 1 
 
 ## TEAM: groupEighteen
 
@@ -9,7 +9,7 @@ Andrew Park
 
 ## PROJECT NAME
 
-FLARE: Discreet Website for Domestic Violence 
+FLARE: A discreet resource for vitcims of Domestic Violence to find help. 
 
 
 ## USER STORY

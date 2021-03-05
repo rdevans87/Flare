@@ -1,0 +1,44 @@
+/* created a second js script to display target results of the search.
+Maybe a GPS location map display or just general contact/location information? /* 
+
+If we are unable to get our desired organization API Possible alternative would be providing a location to local authorities?
+
+Ideas for the image carousel on landing page:
+
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/
+
+https://css-tricks.com/css-only-carousel/
+
+Responsive image gallery:
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive
+
+OTHER LAYOUT IDEAS
+
+Sign Up Modal:
+
+https://www.w3schools.com/howto/howto_css_signup_form.asp
+
+Hidden element pop up for possible secret click event:
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_check_hidden
+
+
+Call out message to provide some brief information possibly for a person to read quickly
+and might need to delete it right away or it can direct them to the actual page quicker. 
+
+https://www.w3schools.com/howto/howto_js_callout.asp
+
+CSS material design layouts are pretty cool, I like the bright colors kind of fits with the Flare name.
+
+https://www.w3schools.com/w3css/w3css_material.asp
+
+Input Form
+https://www.w3schools.com/w3css/w3css_input.asp
+
+Buttons:
+https://www.w3schools.com/w3css/w3css_buttons.asp
+
+
