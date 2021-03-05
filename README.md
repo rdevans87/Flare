@@ -9,7 +9,7 @@ Andrew Park
 
 ## PROJECT NAME
 
-FLARE: Discreet Website for Domestic Violence 
+FLARE: A discreet resource for vitcims of Domestic Violence to find help. 
 
 
 ## USER STORY
