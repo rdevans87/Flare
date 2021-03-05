@@ -1,0 +1,1 @@
+https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&parameters
