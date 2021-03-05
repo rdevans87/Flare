@@ -26,4 +26,3 @@ When I visit the homepage.
 Then I am prompted with a sign up button that brings up a user agreement that gives information about the purpose of the website. 
 
 ```
-
