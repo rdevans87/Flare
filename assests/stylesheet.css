@@ -17,6 +17,15 @@ body {
     outline: none;
   }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+  }
+
+
   button{
     font-family: 'Raleway', san serif;
     font-weight: bolder;
@@ -62,14 +71,7 @@ body {
     float: left;
   } */
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    max-width: 100px;
-    background-color: navy;
-  }
+ 
   
   li {
     float: left;
