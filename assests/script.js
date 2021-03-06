@@ -1,7 +1,18 @@
-var SearchFormEL = document.querySelector("#signup-form");
+var SearchFormEL = document.querySelector("#search-form");
 
-function.handleSearchFormSubmit (event) {
+function handleSearchFormSubmit (event) {
 event.preventDefault();
+
+var searchInputVal = document.querySelector('#search-input').value;
+
+if (!searchInputVal) {
+    console.error('You need a search input value!');
+    return;
+  }
+
+var queryString = './search-results.html?q=' + searchInputVal + '&format=' + formatInputVal;
+
+  location.assign(queryString);
 
 };
 
