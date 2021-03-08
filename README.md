@@ -9,8 +9,11 @@ Andrew Park
 
 ## PROJECT NAME
 
-FLARE: A discreet resource for vitcims of Domestic Violence to find help. 
-
+... 
+FLARE: We’re more than just a Retail Store.
+Sign up today and find Help that fits your style! 
+Stop in and Save at any of our secure locations. Don’t wait. Shop now! 
+//Discreet Website for victims of Domestic Violene\\
 
 ## USER STORY
 
