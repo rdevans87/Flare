@@ -9,11 +9,11 @@ Andrew Park
 
 ## PROJECT NAME
 
-
 ```
-FLARE: We’re more than just a Retail Store.
-Sign up today and find Help that fits your style! 
-Stop in and Save at any of our secure locations. Don’t wait. Shop now! 
+FLARE: 
+We’re more than just a Retail Store.
+Sign up today and find Help that fits your Style! 
+Stop in and Save at any of our Secure Locations. Don’t wait. Shop now! 
 //Discreet Website for victims of Domestic Violence\\
 
 ```
