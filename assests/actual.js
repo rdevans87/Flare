@@ -1,8 +1,6 @@
 var resultTextEl = document.querySelector('#result-text');
 var resultContentEl = document.querySelector('#result-content');
-var searchFormEl = document.querySelector('#search-form');
-var zipCode = []
-
+var searchFormEl = document.querySelector('#search-form')
 
 var zipCode = []
 =======
@@ -43,7 +41,6 @@ resultContentEl.append(resultCard);
 
 }
     
-// input API here with key search params
 funnction searchApi(query, format) {
         var locQueryUrl = "";
       
@@ -61,7 +58,7 @@ funnction searchApi(query, format) {
             return response.json();
           })
           .then(function (locRes) {
-            // write query to page so user knows what they are viewing
+           
             resultTextEl.textContent = locRes.search.query;
       
             console.log(locRes);
