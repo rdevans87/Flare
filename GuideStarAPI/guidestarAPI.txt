@@ -1,0 +1,42 @@
+ESSENTIALS API key
+Query Parameters:
+
+https://apiportal.guidestar.org/api-static-documentation-v3
+
+
+{
+  search_terms: "",
+  from: 0,
+  size: 25,
+  sort: {
+    sort_by: "",
+    ascending: true
+  },
+
+filters: {
+    geography: {
+      state: [],
+      zip: "",
+      radius: 0,
+      msa: [],
+      city: [],
+      county: []
+
+
+      organization: {
+      profile_levels: [],
+      ntee_major_codes: [],
+      ntee_minor_codes: [],
+      subsection_codes: [],
+      foundation_codes: [], New
+      bmf_status: null, New
+      pub78_verified: null, New
+      affiliation_type: {
+        parent: false,
+        subordinate: false,
+        independent: false,
+        headquarter: false
+      },
+
+
+      https://apiportal.guidestar.org/docs/services/microservices.api.search/operations/5f7227cbc6dc75f2d2dc5d6d/console

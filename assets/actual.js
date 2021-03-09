@@ -1,16 +1,12 @@
-var resultTextEl = document.querySelector('#result-text');
 var resultContentEl = document.querySelector('#result-content');
 var searchFormEl = document.querySelector('#search-form')
 
 var zipCode = []
-=======
 
 
 function getParams() {
-    // Get the search params out of the URL (i.e. `?q=london&format=photo`) and convert it to an array (i.e. ['?q=london', 'format=photo'])
     var searchParamsArr = document.location.search.split('&');
-  
-    // Get the query and format values
+
     var query = searchParamsArr[0].split('=').pop();
   
     searchApi(query);
@@ -102,3 +98,47 @@ funnction searchApi(query, format) {
 
 getParams();
 >>>>>>> e543d24ee5f8e7c759bf4af1445499c5727b4c1d
+
+
+
+$(document).ready(function()
+function handleSearchFormSubmit (event) {
+event.preventDefault();
+
+var searchInputVal = document.querySelector('#search-input').value;
+
+if (!searchInputVal) {
+  console.error('You need a search input value!');
+  return;
+}
+
+var queryString = './search-results.html?q=' + searchInputVal + '&format=' + formatInputVal;
+
+location.assign(queryString);
+
+};
+
+
+GET https://apidata.guidestar.org/charitycheck/v1/54-1774039 HTTP/1.1
+
+Host: apidata.guidestar.org
+Subscription-Key: {Your Subscription Key}
+
+POST: https://apidata.guidestar.org/essentials/v2
+
+var searchButton = $("#search-form")
+searchButton.click(searchFunction)
+function searchFunction(event) {
+  
+  event.preventDefault()
+  var zipCode = ""
+  console.log(searchCity)
+
+  $.ajax({
+type: "GET",
+url: "" + zipCode + "",
+dataType: "json",
+success: function(data) {} 
+
+
+console.log(data)
