@@ -1,11 +1,6 @@
 
-$(function() {
-  var params = {
-      // Request parameters
-  };
-
-  $.ajax({
-      url: "https://apidata.guidestar.org/essentials/lookup?" + $.param(params),
+$.ajax({
+      url: "https://apidata.guidestar.org/essentials/lookup?spouse abuse, prevention of=170&child abuse, prevention of=172&protection against and prevention of neglect, abuse, exploitation.=170"
       beforeSend: function(xhrObj){
           // Request headers
           xhrObj.setRequestHeader("Subscription-Key","{subscription key}");
@@ -20,7 +15,6 @@ $(function() {
   .fail(function() {
       alert("error");
   });
-});
 
 
 
