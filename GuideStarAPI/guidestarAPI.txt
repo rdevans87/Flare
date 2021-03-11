@@ -1,6 +1,44 @@
 ESSENTIALS API key
 Query Parameters:
 
+160 Law Enforecement Agencies (policies departments)
+170 Protection Against and Prevention of Neglect, Abuse, Exploitation. 
+Spude
+
+170 protection against and prevent against of neglect, abuse, exploitation.
+
+171 spouse abuse, Prevent of 
+172 child abuse, prevention of 
+173 sexual abuse, prevention of child
+180  legal Services
+151 Dispute Resolution/Mediation services
+160 Law Enforcement Agencies (police departmentsa)
+0202 youth centers, clubs
+01 Boys and 02 Girls Clubs
+023 combined Services 
+30 adult, child matching programs
+31 Big Brothers, Big Sisters
+050 You development programs
+P30 children's and youth Services
+p31 Adoption
+p32 foster care
+p33 child day carouse
+p40 family Services
+p42 single parent agencies/Services
+p43 family voilence shelters and Services
+p45 family serivces
+p46 famliy counseling, marriage counseling 
+p47 pregnancy centers
+p50 pregenancy centers
+p50 personal social Services
+p51 Emergency assistance (food, clothin, cash)
+p62 victims Services
+972 half-way serv 
+
+Low-Cost temporary housing (includes youth hostels and
+
+
+
 https://apiportal.guidestar.org/api-static-documentation-v3
 
 
