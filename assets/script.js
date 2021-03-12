@@ -16,6 +16,16 @@ $.ajax({
       alert("error");
   });
 
+var requestURL = ""
+
+  $.ajax({
+    url: requestUrl,
+    method: 'GET',
+  }).then(function (response) {
+    console.log('Ajax Reponse \n-------------');
+    console.log(response);
+  });
+
 
 
 
