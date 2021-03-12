@@ -16,28 +16,28 @@
 // &childabusepreventionof=172
 // &protectionagainstandpreventionofneglectabuseexploitation=170 HTTP/1.1"
 
-var params = {
-  spouseabusepreventionof: 170,
-  childabusepreventionof:172,
+// var params = {
+//   spouseabusepreventionof: 170,
+//   childabusepreventionof:172,
 
-};
-$.ajax({
-  url: "https://apidata.guidestar.org/essentials/lookup?" + $.param(params),
-  beforeSend: function(xhrObj){
-      // Request headers
-      xhrObj.setRequestHeader("Subscription-Key","6f73df9b3de24f319712e5cc4595ec98");
-  },
-  type: "GET",
-  // Request body
-  data: "{body}",
-})
-.done(function(data) {
-  alert("success");
-  console.log(data);
-})
-.fail(function() {
-  alert("error");
-});
+// };
+// $.ajax({
+//   url: "https://apidata.guidestar.org/essentials/lookup?" + $.param(params),
+//   beforeSend: function(xhrObj){
+//       // Request headers
+//       xhrObj.setRequestHeader("Subscription-Key","6f73df9b3de24f319712e5cc4595ec98");
+//   },
+//   type: "GET",
+//   // Request body
+//   data: "{body}",
+// })
+// .done(function(data) {
+//   alert("success");
+//   console.log(data);
+// })
+// .fail(function() {
+//   alert("error");
+// });
   
 
 // / // Request body
@@ -134,4 +134,10 @@ $.ajax({
 //.fail(function() {
  // alert("error");
 ///}); 
+var search = getElementbyId('shelterBtn')
 
+
+search.addEventListener('click',function(){
+  fetch()
+}
+)

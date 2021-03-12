@@ -27,7 +27,13 @@ var requestURL = ""
   });
 
 
+  var search = getElementbyId('shelterBtn')
 
+
+  search.addEventListener('click',function(){
+    fetch("https://projects.propublica.org/nonprofits/api/v2/search.json?q=domestic+violence&state%5Bid%5D=OH&ntee%5Bid%5D=5&c_code%5Bid%5D=")
+  }
+  )
 
 
 
