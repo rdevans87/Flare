@@ -1,4 +1,5 @@
 var search = document.getElementById('shelterBtn')
+var shelterList = document.getElementById('shelterList')
 
 search.addEventListener('click',function(){
 
@@ -15,6 +16,13 @@ $.ajax({
     success: function (result) {
         console.log("SUCCESS",result);
         // console.log(result.organizations);
+        for(var i = 0; i<result.organizations.length; i++){
+            var name = document.createElement("li").textContent = result["organizations"][i]
+            shelterList.append(name)
+
+
+        }
+        console.log("done")
     },
 });
 
