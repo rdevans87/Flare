@@ -1,5 +1,5 @@
-var search = document.getElementById('shelterBtn')
-var shelterList = document.getElementById('shelterList')
+var search = document.getElementById('shelterBtn');
+var shelterList = document.getElementById('shelterList');
 
 search.addEventListener('click',function(){
 
@@ -17,9 +17,9 @@ $.ajax({
         console.log("SUCCESS",result);
         // console.log(result.organizations);
         for(var i = 0; i<result.organizations.length; i++){
-            var name = document.createElement("li").textContent = result["organizations"][i].name
-            shelterList.append(name)
-
+          var listItem = document.createElement("li");
+          listItem.textContent = result.organizations[i].name
+          shelterList.append(listItem);
 
         }
         console.log("done")
