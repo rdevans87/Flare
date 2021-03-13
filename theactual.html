@@ -1,25 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>We're Here To Help</title>
-    <link rel="stylesheet" href="./assets/stylesheet.css"/>
-</head>
-<body>
-    <h1>We're here to help.</h1>
-    <p> Were here to help .........
-        We've hidden some resources to help. When searching for a location near you, it will populate the address of local shelters in your area.
-    </p>
-
-    <h2>There is a help center near you: <span id="result-text"></span></h2>
-        </div>
-      <div id="result-content"></div>
     
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>The Actual</title>
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <script src="https://ajax.googleleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+        <link href="assets/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    
+                <div class="container-fluid">
+                    <img src="assets/img/flare.png">
+    
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="landingpage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mens.html">Men's</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="womens.html">Women's</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kids.html">Children's</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </nav>
+        </header>
+    
+        <section>
+            <div class="container-fluid">
+                <img src="assets/img/flare_main.jpg" class="banner">
+                <div class="banner-text">
+    
+                        <h1 class="display-2">Shop Men's</h1>
+                        <h3>Browse men's apparel or find a location near you</h3>
+    
+                </div>
+            </div>
+        </section>
+    
+        <div class="container-fluid">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="caroimg" src="./assets/img/men/knitwear/mens_heathered_nasa_hoodie.png">
+                    
+                </div>
+    
+                <div class="carousel-item">
+                    <img class="caroimg" src="./assets/img/men/outerwear/mens_teddycollar_suede_jacket.png">
+                    
+                </div>
+    
+                <div class="carousel-item">
+                    <img class="caroimg" src="./assets/img/men/pants/mens_paint_splattered_jeans.png">
+                    
+                </div>
+    
+            </div>
+    
+            <div class="row jumbotron">
+                <div id="shelterContainer" class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead">
+                        Search for a location.....
+                    </p>
+                </div>
+    
+                <!-- <div id="slides" class="carousel slide" data-ride="carousel">
+    
+                    <ul class="carousel-indicators">
+                        <li data-target="#slides" data-slide-to="0" class="active"></li>
+                        <li data-target="#slides" data-slide-to="1"></li>
+                        <li data-target="#slides" data-slide-to="2"></li>
+                    </ul>
+            
+                    
+                        <div class="carousel-item active">
+                            <img src="./assets/img/men/knitwear/mens_maroon_sweater.png">
+                        </div>
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="./assets/img/men/outerwear/mens_leather_jacket.png">
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="./assets/img/men/pants/mens_black_faded_jeans.png">
+                        </div>
+             -->
+
+    
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <input type="text" class="text-center" placeholder="zipcode or city">
+        <button type="button" id="shelterBtn" onclick="loadDoc()">Change Content</button>
+    </div>
+        <p> Don't forget! We are CASH ONLY!</p>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>  
     <script src="assets/actual.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
