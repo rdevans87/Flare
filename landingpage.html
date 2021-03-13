@@ -82,19 +82,13 @@
 
         <div class="row jumbotron">
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-               <p class="lead">
-                   Welcome to Flare!
+                <p class="lead">
+                    Welcome to Flare! Browse our rotating list of new items online or find a store near you to buy and sell thrift. 
                 </p>
-                <p> 
-                    We're more than a retail store.
-                    <br>
-                    Don't wait. Sign up today!
-                </p>
-                
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="#"><button onclick="document.getElementById('id01').style.display='block'"type="button" class="signupBtn">Sign up!</button></a>
+                <a href="#"><button onclick="document.getElementById('id01').style.display='block'"type="button" class="signupBtn btn-secondary">Sign up!</button></a>
             </div>
         </div>
 
@@ -109,8 +103,10 @@
   <form class="modal-content" action="/action_page.php">
     <div class="container">
       <h1>Sign Up</h1>
-      <p>Please read this form to create an account.</p>
+      <p>Please fill in this form to create an account.</p>
       <hr>
+      
+      
 
       <p>By signing up for a Flare Account (as defined in Section 1) or by using any Flare Services (as defined below), you are agreeing to be bound by the following terms and conditions (the “Terms of Service”).
         <br>
@@ -119,6 +115,13 @@
         <br>
         <br>
         The services offered by Flare under the Terms of Service include various products and services to help you sell clothing and accessories to buyers, whether online (“Online Services”) or by enabling you to engage with physical locations, in person (“POS Services”), or both. Any such services offered by Flare are referred to in these Terms of Services as the “Services”. Any new features or tools which are added to the current Services shall be also subject to the Terms of Service. Flare reserves the right to update and change the Terms of Service by posting updates and changes to the Flare website. You are advised to check the Terms of Service from time to time for any updates or changes that may impact you. and if you do not accept such amendments, you must cease using the Services.
+    </p>
+
+    <p id = actualUse>
+        Thanks for accessing Flare, where help is only 3 clicks away. The purpose of this site is to connect victims of domestic violence with shelters and resources in the greater Columbus area. Simply choose one of the 3 categories (men, women’s, or children’s) and you will be redirected to a page that searches for shelters for men, women, or children. 
+        <br>
+        <br>
+        Your safety is our number one priority, so we’ve embedded this information in an innocuous format, a website that buys and sells used clothes. This website should appear in your browser history as a used clothing store, and shelter locations are presented as “store” locations. The purpose of this user agreement is to provide you a discrete description of our services. Click the button on the right to navigate quickly back to the user agreement section, however none of the text above or below this section are legitimate. 
     </p>
 
     <h3>Account Terms</h3>
@@ -133,21 +136,25 @@
         <br>
         <br>
         4.	You are responsible for keeping your password secure. Flare cannot and will not be liable for any loss or damage from your failure to maintain the security of your Account and password.
-        </p>
-        5. <input type="checkbox" onclick="showActualUse()">
-        <label for="checkbox"> Check this box to accept the Terms of Service</label>
-        <div id="actualUse">
-            Thanks for accessing Flare, where help is only 3 clicks away. The purpose of this site is to connect victims of domestic violence with shelters and resources in the greater Columbus area. Simply choose one of the 3 categories (men, women’s, or children’s) and you will be redirected to a page that searches for shelters for men, women, or children. 
-              <br>
-              <br>
-              Your safety is our number one priority, so we’ve embedded this information in an innocuous format, a website that buys and sells used clothes. This website should appear in your browser history as a used clothing store, and shelter locations are presented as “store” locations. The purpose of this user agreement is to provide you a discrete description of our services. Click the button on the cancel button to navigate quickly back to the user agreement section, however none of the text above or below this section are legitimate. 
-        </div>
-      
+
+    </p>
+
       <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Close</button>
        
       </div>
     </div>
+  </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
   </form>
 </div>
 <script>
