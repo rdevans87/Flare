@@ -51,24 +51,14 @@ body {
     border-radius: 0;
 }
 
-@media (max-width: 992px) {
-
+.lead {
+  font-size: x-large;
+  text-align:start;
 }
 
-@media (max-width: 768px){
-
-}
-
-@media (max-width: 576px) {
-
-}
 
 [class*="col-"] {
     padding: 1rem;
-}
-.caroimg{
-    max-width: 200px;
-    max-height: 400px;
 }
 
 * {box-sizing: border-box}
@@ -88,20 +78,13 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-#actualUse {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    margin-top: 20px;
-    display: none;
-  }
-
 /* Set a style for all buttons */
+
 
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: #F7567C;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -127,7 +110,6 @@ input[type=text]:focus, input[type=password]:focus {
   overflow: auto; /* Enable scroll if needed */
   background-color: #474e5d;
   padding-top: 50px;
-  margin-top: 50px;
 }
 
 /* Modal Content/Box */
@@ -156,7 +138,7 @@ hr {
 
 .close:hover,
 .close:focus {
-  color: #f44336;
+  color: #F7567C;
   cursor: pointer;
 }
 
@@ -204,3 +186,46 @@ button{
     transform: translateY(3px);
   }
 
+  .wrapper h2 {
+    text-align: center; 
+    font-size: 30px;
+  }
+
+  .img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+.single-img {
+  padding: 20px 20px 20px 20px;
+  height: 220px;
+  width:200px;
+  overflow: hidden;
+}
+
+
+.single-img img {
+  height: auto;
+  width: 100px;
+}
+
+@media screen and (max-width: 600px)  {
+  /* .navbar-nav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      } */
+}
+
+
+@media (max-width: 768px){
+
+
+}
+
+@media (max-width: 576px) {
+
+}
