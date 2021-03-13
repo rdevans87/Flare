@@ -1,40 +1,21 @@
+var search = document.getElementById('shelterBtn')
 
+search.addEventListener('click',function(){
+
+let url = "https://projects.propublica.org/nonprofits/api/v2/search.json?q=domestic+violence&state%5Bid%5D=OH&ntee%5Bid%5D=5&c_code%5Bid%5D="
+// However to make it work, we are going to use the cors-anywhere free service to bypass this
+var proxy = 'https://cors-anywhere.herokuapp.com/';
 $.ajax({
-      url: "https://apidata.guidestar.org/essentials/lookup?spouse abuse, prevention of=170&child abuse, prevention of=172&protection against and prevention of neglect, abuse, exploitation.=170"
-      beforeSend: function(xhrObj){
-          // Request headers
-          xhrObj.setRequestHeader("Subscription-Key","{subscription key}");
-      },
-      type: "GET",
-      // Request body
-      data: "{body}",
-  })
-  .done(function(data) {
-      alert("success");
-  })
-  .fail(function() {
-      alert("error");
-  });
+    // The proxy url expects as first URL parameter the URL to be bypassed
+    // https://cors-anywhere.herokuapp.com/{my-url-to-bypass}
+    url: proxy + url, 
+    // complete:function(data){
+    //     console.log("COMPLETE",data);
+    // },
+    success: function (result) {
+        console.log("SUCCESS",result);
+        // console.log(result.organizations);
+    },
+});
 
-var requestURL = ""
-
-  $.ajax({
-    url: requestUrl,
-    method: 'GET',
-  }).then(function (response) {
-    console.log('Ajax Reponse \n-------------');
-    console.log(response);
-  });
-
-
-  var search = getElementbyId('shelterBtn')
-
-
-  search.addEventListener('click',function(){
-    fetch("https://projects.propublica.org/nonprofits/api/v2/search.json?q=domestic+violence&state%5Bid%5D=OH&ntee%5Bid%5D=5&c_code%5Bid%5D=")
-  }
-  )
-
-
-
-
+});
