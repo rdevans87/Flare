@@ -11,13 +11,13 @@ Deployed URL:
 # Credits
 
 Cristina Maze (concept, design, development)
-GitHub:
+GitHub: https://github.com/cristinamaze
 
 Anthony Decapite (design, development, support)
-GitHub:
+GitHub: https://github.com/adecapite
 
 Ryan Evans (research, development, support, )
-GitHub:
+GitHub: https://github.com/rdevans87
 
 ## Description 
 This application was developed collaborativelly using agile methodologies and project management tools to conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests. Advanced HTML and CSS properties make up the structure and design. While third-party APIs powered by Javascript such as Bootstrap and jquery provided the primary functionality and responsiveness of our site. 
