@@ -22,9 +22,9 @@ Ryan Evans (research, development, support)
 GitHub: https://github.com/rdevans87
 
 ## Description 
-This application was developed collaborativelly using agile methodologies and project management tools to conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests. Advanced HTML and CSS properties make up the structure and design. While third-party APIs powered by Javascript such as Bootstrap and jquery provided the primary functionality and responsiveness of our site. 
+This application was developed collaborativelly using agile methodologies and project management tools to conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests. Advanced HTML and CSS properties make up the structure and design. While third-party APIs powered by Javascript such as Bootstrap and jquery provide the primary functionality and responsiveness of our site. 
 
-Two server-side APIs were used to retrieve, store, and display data on our site specifically pertaining to non-profit organizations and advocacy groups in the greater Columbus, OH area specialize in domestic abuse. 
+Two server-side APIs were used to retrieve, store, and display data on our site specifically pertaining to non-profit organizations and advocacy groups in the greater Columbus, OH area specializing in domestic abuse. 
 
 APIs USED:
 
@@ -33,7 +33,7 @@ NonProfit Explorer: https://projects.propublica.org/nonprofits/
 GuideStar: https://www.guidestar.org/
 
 
-The intent of this project was to develop an innocuous website that provides helpful resources for men, women, and children in the Columbus area; while presenting itself as a thrift clothing website to prying eyes. This application runs in a web browser and features clothing on three separate pages. All sections of the website are accessible from the homepage providing a user experience that is inuititive and easy to use. Users can sign up from the homepage to find out more about our website. The sign up modal contains a Terms of Service agreement meant to deterr anyone from reading further. Click the check box to accept the Terms of Service and display a hidden element containing important information and instructions for using our site. Select from three different categories, each category displays a collection of apparel for shopping. At the bottom of each page, there is a search input for store locations. Enter the nearest zipcode and get search results for local domestic violance resources. Our hope is that users will find our website a secure place to seek help when they are unable to do so through other means. 
+The intent of this project was to develop an innocuous website that provides helpful resources for men, women, and children in the Columbus area; while presenting itself as a thrift clothing website to prying eyes. This application runs in a web browser and features clothing on three separate pages. All sections of the website are accessible from the homepage providing a user experience that is inuititive and easy to use. Users can sign up from the homepage to find out more about our website. The sign up modal contains a Terms of Service agreement meant to deterr anyone from reading further. Click the check box to accept the Terms of Service and display a hidden element containing important information and instructions for using our site. Select from three different categories, each category displays a collection of apparel for shopping. At the bottom of each page, there is a search input for store locations. Enter the nearest zipcode and get search results for local domestic violence resources. Our hope is that users will find our website a secure place to seek help when they are unable to do so through other means. 
 
 
 ## USER STORY
