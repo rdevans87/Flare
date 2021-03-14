@@ -6,7 +6,9 @@ A Discreet Website for victims of Domestic Violence.
 
 ```
 
-Deployed URL: 
+Deployed URL: https://adecapite.github.io/groupEighteen/
+
+Demo URL: https://drive.google.com/file/d/15UURPtLA_AZ5P0IJqW7p2a2WjrS7nG93/view
 
 # Credits
 
