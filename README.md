@@ -18,7 +18,7 @@ GitHub: https://github.com/cristinamaze
 Anthony Decapite (design, development, support)
 GitHub: https://github.com/adecapite
 
-Ryan Evans (research, development, support, )
+Ryan Evans (research, development, support)
 GitHub: https://github.com/rdevans87
 
 ## Description 
@@ -34,7 +34,6 @@ GuideStar: https://www.guidestar.org/
 
 
 The intent of this project was to develop an innocuous website that provides helpful resources for men, women, and children in the Columbus area; while presenting itself as a thrift clothing website to prying eyes. This application runs in a web browser and features clothing on three separate pages. All sections of the website are accessible from the homepage providing a user experience that is inuititive and easy to use. Users can sign up from the homepage to find out more about our website. The sign up modal contains a Terms of Service agreement meant to deterr anyone from reading further. Click the check box to accept the Terms of Service and display a hidden element containing important information and instructions for using our site. Select from three different categories, each category displays a collection of apparel for shopping. At the bottom of each page, there is a search input for store locations. Enter the nearest zipcode and get search results for local domestic violance resources. Our hope is that users will find our website a secure place to seek help when they are unable to do so through other means. 
-
 
 
 ## USER STORY
