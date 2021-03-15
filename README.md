@@ -1,4 +1,4 @@
-## PROJECT 1  - FLARE
+# PROJECT 1  - FLARE
 
 ``` 
 We’re more than just a Retail Store.
@@ -10,7 +10,7 @@ Deployed URL: https://rdevans87.github.io/groupEighteen/
 
 Demo URL: https://drive.google.com/file/d/15UURPtLA_AZ5P0IJqW7p2a2WjrS7nG93/view
 
-# Credits
+## Credits
 
 Cristina Maze (concept, design, development)
 GitHub: https://github.com/cristinamaze
