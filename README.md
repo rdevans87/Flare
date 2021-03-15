@@ -3,6 +3,7 @@
 ``` 
 We’re more than just a Retail Store.
 A Discreet Website for victims of Domestic Violence.
+Do you need help? Let us light the way!
 
 ```
 
