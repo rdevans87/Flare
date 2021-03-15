@@ -60,6 +60,10 @@ body {
 [class*="col-"] {
     padding: 1rem;
 }
+.caroimg{
+  max-width: 200px;
+  max-height: 400px;
+}
 
 * {box-sizing: border-box}
 /* Full-width input fields */
