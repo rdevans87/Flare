@@ -57,3 +57,7 @@ When I view the results, I'm provided with local resources disguised as retail s
 ## MOCKUP
 
 ![image](https://user-images.githubusercontent.com/74195719/111054959-e208d300-843e-11eb-8374-c9f93460bf9a.png)
+
+
+
+[MIT LICENSE](/Users/ryanevans/LICENSE.txt)
